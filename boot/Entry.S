@@ -1,7 +1,7 @@
 .text
 	.code 32 // instruction size == 32
 
-	.global verctor_start 
+	.global vector_start 
 	.global vector_end // to make vector_start, vector_end defined in other source files
 
 	vector_start:
